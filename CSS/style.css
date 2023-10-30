@@ -1,0 +1,36 @@
+body{
+    background-color: grey;
+}
+.nav-link:hover{
+    color: black;
+}
+.nav-link{
+    color: white;
+}
+hr{
+    color: white;
+}
+.container{
+    margin-top: 200px;
+}
+h2{
+    font-style: italic;
+    font-weight: 500;
+    font-family: "trirong";
+}
+h1{
+    font-weight: bold;
+}
+img{
+    transition: opacity 0.6s;
+}
+img:hover{
+    opacity: 0.7;
+}
+svg{
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+form{
+    margin-top: 30px;
+}
