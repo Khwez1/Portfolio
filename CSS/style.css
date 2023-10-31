@@ -1,5 +1,5 @@
 body{
-    background-color: grey;
+    background-color: gray;
 }
 .nav-link:hover{
     color: black;
@@ -17,6 +17,7 @@ h2{
     font-style: italic;
     font-weight: 500;
     font-family: "trirong";
+    color: darkgray;
 }
 h1{
     font-weight: bold;
@@ -33,4 +34,51 @@ svg{
 }
 form{
     margin-top: 30px;
+}
+
+ul li h3{
+    font-family: "audiowide";
+    margin-right: 710px;
+}
+ul li h3::first-letter{
+    color: darkgray;
+}
+section{
+    background-image:url(/Assets/black-background-presentation-template-SB02298-02.jpg);
+}
+#myName{
+    color: darkgray;
+}
+#description{
+    color: darkgray;
+}
+#myPic{
+    height: 550px;
+    border-radius: 80px; 
+}
+#Pic{
+    height: 700px; 
+    border-radius: 50px;
+}
+#submit{
+    background-color: darkgray;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    border: 1px black solid;
+}
+#submit:hover{
+    color: white;
+    background-color: black;
+}
+#netlify{
+    background-color: blue;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    border: 1px navy solid;
+}
+#netlify:hover{
+    color: black;
+    background-color: navy;
 }
