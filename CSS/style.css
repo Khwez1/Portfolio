@@ -23,7 +23,7 @@ h1{
     font-weight: bold;
 }
 img{
-    transition: opacity 0.6s;
+    transition: opacity 0.9s;
 }
 img:hover{
     opacity: 0.7;
@@ -38,13 +38,16 @@ form{
 
 ul li h3{
     font-family: "audiowide";
-    margin-right: 315px;
+    position: relative;
+    right: 315px;
 }
 ul li h3::first-letter{
     color: darkgray;
 }
 section{
     background-image:url(/Assets/black-background-presentation-template-SB02298-02.jpg);
+    position: relative;
+    bottom: 50px;
 }
 #myName{
     color: darkgray;
@@ -146,12 +149,12 @@ a{
   }
   .info{
     position: relative;
-    right: 30%;
+    right: 33.5%;
     text-align: center;
   }
   #Pfp{
     position: relative;
-    right: 9%;
-    height: 400px;
+    right: 5%;
+    height: 360px;
     border-radius: 35%;
-  }
+}
