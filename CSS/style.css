@@ -1,3 +1,11 @@
+/* 
+#nav-links{
+    display: flex;
+    flex-direction: row;
+}
+#nav{
+    z-index: 5000;
+}
 body{
     background-color: gray;
 }
@@ -94,8 +102,8 @@ a{
     width : 1000px;
     display :flex;
     align-items : center;
-    /* justify-content : center; */
-    /* flex-warp : warp; */
+    justify-content : center; 
+    flex-warp : warp; 
     padding : 30px;
   }
   .container1 .card {
@@ -120,7 +128,7 @@ a{
     width : 280px;
     height : 280px;
     top : -20%;
-    /* box-shadow : 0 5px 20px rgba(0,0,0,0.2); */
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
     z-index : 1;
     align-items: center;
   }
@@ -157,4 +165,4 @@ a{
     right: 5%;
     height: 360px;
     border-radius: 35%;
-}
+} */
