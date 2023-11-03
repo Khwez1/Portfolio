@@ -137,10 +137,13 @@
         transition-delay: 0.2s;
     }
     #card:hover, .card-text{
-        height : 310px;
+        height : fit-content;
         visibility : visible;
         opacity : 1;
         transition-delay: 0.2s;
+    }
+    a{
+        text-decoration: none;
     }
     #submit{
         background-color: darkgray;
