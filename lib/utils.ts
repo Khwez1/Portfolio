@@ -65,7 +65,7 @@ export const validateField = (
         ? undefined
         : "Please enter a valid email address";
 
-    case "subject":
+    case "title":
       return (
         validateRequired(value, "Subject") ||
         validateMinLength(value, 3, "Subject")
