@@ -68,7 +68,7 @@ export const HeroSection = ({
               download
               aria-label="Download CV in PDF format"
               className="w-full sm:w-auto"
-              href="/new CV.pdf"
+              href="/CV of Khwezilomso Mbobo (final Draft).pdf"
             >
               <Button
                 fullWidth
