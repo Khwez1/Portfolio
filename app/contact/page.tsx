@@ -48,9 +48,9 @@ const ContactPage: React.FC = () => {
 
       try {
         const templateParams = {
-          from_name: formData.name,
-          from_email: formData.email,
-          subject: formData.title,
+          name: formData.name,
+          email: formData.email,
+          title: formData.title,
           message: formData.message,
         };
 
