@@ -144,9 +144,12 @@ export const DATA = {
           { name: "Node.js", icon: "logos:nodejs-icon" },
           { name: "Php", icon: "logos:php" },
           { name: ".NET", icon: "logos:dotnet" },
+          { name: "Laravel", icon: "logos:laravel" },
           { name: "Python", icon: "logos:drizzle-ORM" },
           { name: "PostgresSQL", icon: "logos:postgresql" },
-          { name: "OpenAI", icon: "simple-icons:openai" }
+          { name: "OpenAI", icon: "simple-icons:openai" },
+          { name: "AWS", icon: "logos:aws" },
+          { name: "Azure", icon: "logos:microsoft-azure" }
         ]
       },
       uiUx: {
@@ -155,7 +158,7 @@ export const DATA = {
         tools: [
           { name: "Figma", icon: "logos:figma" },
           { name: "Framer", icon: "simple-icons:framer", color: "#0055FF" },
-          { name: "Notion", icon: "logos:notion-icon" },
+          { name: "Notion", icon: "logos:notion-icon" }
         ],
       },
     },
@@ -170,23 +173,25 @@ export const DATA = {
         title: "Stocks Portfolio Platform",
         description:
           "A streamlined digital stocks portfolio platform interface emphasizing clarity, speed, and intuitive design.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1",
+        image: "https://cdn-images.imagevenue.com/3e/3b/9b/ME1CHB7I_o.png?w=600&h=400&u=1",
         gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1-3",
+          "https://cdn-images.imagevenue.com/3e/3b/9b/ME1CHB7I_o.png?w=600&h=400&u=1",
+          "https://cdn-images.imagevenue.com/88/b3/6f/ME1CHB7J_o.png?w=600&h=400&u=1-1",
+          "https://cdn-images.imagevenue.com/b8/a9/bd/ME1CHB7K_o.png?w=600&h=400&u=1-2",
+          "https://cdn-images.imagevenue.com/55/a7/da/ME1CHB7L_o.png?w=600&h=400&u=1-3",
+          "https://cdn-images.imagevenue.com/68/4c/50/ME1CHB7M_o.png?w=600&h=400&u=1-4",
         ],
         category: "Applications",
         details:
-          "A feature-rich digital banking app built with React and TailwindCSS, integrating seamless animations via Framer Motion. Designed with a mobile-first approach and a modular component system powered by TypeScript and Vite.",
-        github: "https://github.com/Khwez1/Portfolio.git",
-        live: "https://example.com",
+          "A feature-rich stocks portfolio app built with React and TailwindCSS. Designed with a mobile-first approach and a modular component system powered by TypeScript and Vite.",
+        github: "https://github.com/Khwez1/stockshop.git",
+        live: "https://stock-shop.vercel.app/",
         tech: [
           { name: "React", icon: "logos:react" },
           { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
           { name: "TypeScript", icon: "logos:typescript-icon" },
-          { name: "Expo", icon: "simple-icons:expo" },
+          { name: ".NET", icon: "logos:dotnet" },
+          { name: "Render", icon: "simple-icons:render" }
         ],
       },
       {
@@ -194,77 +199,52 @@ export const DATA = {
         title: "E-commerce Platform",
         description:
           "Scalable and responsive online store with dynamic product filtering and intuitive cart management.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2",
+        image: "https://cdn-images.imagevenue.com/d5/62/a1/ME1CH5CQ_o.png?w=600&h=400&u=2",
         gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2-3",
+          "https://cdn-images.imagevenue.com/d5/62/a1/ME1CH5CQ_o.png?w=600&h=400&u=2",
+          "https://cdn-images.imagevenue.com/79/e5/63/ME1CH5CP_o.png?w=600&h=400&u=2-1",
+          "https://cdn-images.imagevenue.com/6f/36/42/ME1CH5CO_o.png?w=600&h=400&u=2-2",
         ],
         category: "Web Development",
         details:
-          "A fully functional e-commerce platform built with React and TailwindCSS. Features product listings, advanced filters, cart and checkout system, and a modern UI with responsive design for all devices.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "A fully functional e-commerce platform built with Vue and Bootstrap. Features product listings, advanced filters, cart and checkout system, and a modern UI with responsive design for all devices.",
+        github: "https://github.com/Khwez1/Capstone-Project.git",
+        live: "https://capstone-project-55c13.web.app/",
         tech: [
-          { name: "React", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "TypeScript", icon: "logos:typescript-icon" },
-          { name: "PostgreSQL", icon: "logos:postgresql" },
+          { name: "Vue", icon: "logos:vue" },
+          { name: "Bootstrap", icon: "logos:bootstrap" },
+          { name: "JavaScript", icon: "logos:javascript" },
+          { name: "MySQL", icon: "logos:mysql" }
         ],
       },
       {
         id: 3,
-        title: "Travel Booking System",
-        description:
-          "Comprehensive booking platform for flights, hotels, and rentals with live availability.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3-3",
-        ],
-        category: "Web Development",
-        details:
-          "A modern travel booking system built with Next.js and TailwindCSS. Users can search and book flights, hotels, and car rentals with real-time availability and intuitive UI components powered by HeroUI.",
-        github: "https://github.com",
-        live: "https://example.com",
-        tech: [
-          { name: "Next.js", icon: "skill-icons:nextjs-dark" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "TypeScript", icon: "logos:typescript-icon" },
-        ],
-      },
-      {
-        id: 4,
         title: "AI Chat Assistant",
         description:
-          "Smart customer support assistant with contextual awareness and real-time replies.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4",
+          "AI assistant with contextual awareness and real-time replies.",
+        image: "https://cdn-images.imagevenue.com/27/1c/fa/ME1CH5XF_o.png?w=600&h=400&u=4",
         gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4-3",
+          "https://cdn-images.imagevenue.com/27/1c/fa/ME1CH5XF_o.png?w=600&h=400&u=4",
+          "https://cdn-images.imagevenue.com/32/fa/46/ME1CH5XG_o.png?w=600&h=400&u=4-1"
         ],
         category: "Applications",
         details:
           "AI-powered chat assistant developed with React and TailwindCSS. Integrated with OpenAI’s GPT API for contextual conversations, deployed via Vercel with real-time response and adaptive UI.",
-        github: "https://github.com",
-        live: "https://example.com",
+        github: "https://github.com/Khwez1/AI-Chat.git",
+        live: "https://ai-chat-seven-ruddy.vercel.app/",
         tech: [
-          { name: "React", icon: "logos:react" },
+          { name: "Vue", icon: "logos:vue" },
           { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
           { name: "OpenAI API", icon: "simple-icons:openai" },
           { name: "Vercel", icon: "simple-icons:vercel" },
+          { name: "Neon", icon: "logos:neon-icon" }
         ],
       },
       {
-        id: 5,
-        title: "Portfolio API & CMS",
+        id: 4,
+        title: "Trading Engine",
         description:
-          "Headless API backend with admin-friendly CMS capabilities.",
+          "A long term project still in progress, check it out for yourself!",
         image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5",
         gallery: [
           "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5",
@@ -274,132 +254,13 @@ export const DATA = {
         ],
         category: "Backend Services",
         details:
-          "A modular REST API built with Node.js and Express, powering dynamic portfolio websites. It includes JWT-based authentication, MySQL integration, and a Swagger-documented CMS interface for easy content management by non-developers.",
-        github: "https://github.com",
+          "Algorithmic deterministic matching core with FIFO price-time priority and market data and fills emitted as events. Built using C# and .NET",
+        github: "https://github.com/Khwez1/TradingEngine.git",
         tech: [
-          { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "MySQL", icon: "logos:mysql-icon" },
-          { name: "JWT", icon: "simple-icons:jsonwebtokens" },
-          { name: "Swagger", icon: "simple-icons:swagger" },
+          { name: ".NET", icon: "logos:dotnet" },
+          { name: "csharp", icon: "devicon:csharp" }
         ],
-      },
-      {
-        id: 6,
-        title: "Fitness Tracker App",
-        description:
-          "Monitor workouts, calorie intake, and goals in one place.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6-3",
-        ],
-        category: "Applications",
-        details:
-          "A cross-platform fitness application developed with React Native and styled using TailwindCSS via Expo. It offers calorie tracking, workout logging, analytics via charts, and custom goal-setting—all within a mobile-optimized interface.",
-        github: "https://github.com",
-        live: "https://example.com",
-        tech: [
-          { name: "React Native", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "Expo", icon: "simple-icons:expo" },
-        ],
-      },
-      {
-        id: 7,
-        title: "Content Scheduler",
-        description:
-          "Plan, schedule, and automate your social media posts effortlessly.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7-3",
-        ],
-        category: "Applications",
-        details:
-          "A productivity app designed for content creators featuring calendar syncing, automated post publishing, rich media previews, and cloud synchronization for seamless cross-device access.",
-        github: "https://github.com",
-        live: "https://example.com",
-        tech: [
-          { name: "Next.js", icon: "skill-icons:nextjs-dark" },
-          { name: "MySQL", icon: "logos:mysql-icon" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-        ],
-      },
-      {
-        id: 8,
-        title: "Real Estate Dashboard",
-        description:
-          "Comprehensive dashboard to manage properties, leads, and sales pipelines effectively.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8-3",
-        ],
-        category: "Web Development",
-        details:
-          "An admin panel tailored for real estate professionals featuring interactive data visualizations, lead tracking, and CRM system integrations to streamline client and property management.",
-        github: "https://github.com",
-        live: "https://example.com",
-        tech: [
-          { name: "React", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "Chart.js", icon: "simple-icons:chartdotjs" },
-        ],
-      },
-      {
-        id: 9,
-        title: "Crypto Wallet API",
-        description:
-          "Robust backend API for secure cryptocurrency operations and blockchain interactions.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9-3",
-        ],
-        category: "Backend Services",
-        details:
-          "Secure Node.js API supporting Ethereum and Bitcoin transactions. Features transaction signing, wallet address creation, and real-time blockchain event monitoring using Web3.js. Enhanced with hardware security module (HSM) integration for secure key management.",
-        github: "https://github.com",
-        tech: [
-          { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "Ethereum", icon: "logos:ethereum" },
-          { name: "Web3.js", icon: "simple-icons:web3dotjs" },
-          { name: "PostgreSQL", icon: "logos:postgresql" },
-          { name: "JWT", icon: "simple-icons:jsonwebtokens" },
-        ],
-      },
-      {
-        id: 10,
-        title: "SaaS Subscription API",
-        description:
-          "Backend API managing SaaS subscriptions, billing, and user accounts.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10-3",
-        ],
-        category: "Backend Services",
-        details:
-          "RESTful API supporting SaaS subscription workflows with Stripe integration, usage metering, tiered pricing, webhook handling, trial periods, and analytics. Optimized for high concurrency with Redis caching.",
-        github: "https://github.com",
-        tech: [
-          { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "Stripe", icon: "logos:stripe" },
-          { name: "PostgreSQL", icon: "logos:postgresql" },
-          { name: "Redis", icon: "logos:redis" },
-          { name: "JWT", icon: "simple-icons:jsonwebtokens" },
-        ],
-      },
+      }
     ],
   },
   contact: {
