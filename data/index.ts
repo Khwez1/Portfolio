@@ -191,7 +191,7 @@ export const DATA = {
           { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
           { name: "TypeScript", icon: "logos:typescript-icon" },
           { name: ".NET", icon: "logos:dotnet" },
-          { name: "Render", icon: "simple-icons:render" }
+          { name: "Azure", icon: "logos:microsoft-azure" }
         ],
       },
       {
@@ -222,10 +222,10 @@ export const DATA = {
         title: "AI Chat Assistant",
         description:
           "AI assistant with contextual awareness and real-time replies.",
-        image: "https://cdn-images.imagevenue.com/27/1c/fa/ME1CH5XF_o.png?w=600&h=400&u=4",
+        image: "https://cdn-images.imagevenue.com/27/1c/fa/ME1CH5XF_o.png?w=600&h=400&u=3",
         gallery: [
-          "https://cdn-images.imagevenue.com/27/1c/fa/ME1CH5XF_o.png?w=600&h=400&u=4",
-          "https://cdn-images.imagevenue.com/32/fa/46/ME1CH5XG_o.png?w=600&h=400&u=4-1"
+          "https://cdn-images.imagevenue.com/27/1c/fa/ME1CH5XF_o.png?w=600&h=400&u=3",
+          "https://cdn-images.imagevenue.com/32/fa/46/ME1CH5XG_o.png?w=600&h=400&u=3-1"
         ],
         category: "Applications",
         details:
@@ -245,12 +245,12 @@ export const DATA = {
         title: "Trading Engine",
         description:
           "A long term project still in progress, check it out for yourself!",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5",
+        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4",
         gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5-3",
+          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4",
+          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4-1",
+          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4-2",
+          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4-3",
         ],
         category: "Backend Services",
         details:
