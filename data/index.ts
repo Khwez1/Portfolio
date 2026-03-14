@@ -234,8 +234,8 @@ export const DATA = {
         live: "https://ai-chat-seven-ruddy.vercel.app/",
         tech: [
           { name: "Vue", icon: "logos:vue" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "OpenAI API", icon: "simple-icons:openai" },
+          { name: "DrizzleORM", icon: "material-icon-theme:drizzle" },
+          { name: "OpenAI", icon: "simple-icons:openai" },
           { name: "Vercel", icon: "simple-icons:vercel" },
           { name: "Neon", icon: "logos:neon-icon" }
         ],
