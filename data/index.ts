@@ -34,8 +34,8 @@ export const DATA = {
       ],
     },
     testimonials: {
-      sectionTitle: "Client Testimonials",
-      sectionDescription: "What clients say about working together",
+      sectionTitle: "Testimonials",
+      sectionDescription: "What colleagues say about working together",
       items: [
         {
           id: 1,
@@ -77,6 +77,14 @@ export const DATA = {
             "Khwezi is an exceptional developer with an unwavering dedication to rising to the occasion. He excels in backend logic and consistently operates at the highest level in the field.",
           avatar: "https://cdn-images.imagevenue.com/f8/b1/ef/ME1CCK1O_o.jpeg",
         },
+        {
+          id: 6,
+          name: "Jodi Abrahams",
+          role: "Frontend Developer at TransHumanity",
+          content: 
+            "Khwezi is exceptionally talented, hard working and fun to be around with. I personally would recommend him for any project. He not only implements features but gives ideas to make everyone's lives a little bit easier. He is one of the best developers I worked with.",
+          avatar: "https://cdn-images.imagevenue.com/b4/0d/0c/ME1CNUTS_o.jpg"
+        }
       ],
     },
   },
@@ -260,6 +268,28 @@ export const DATA = {
           { name: ".NET", icon: "logos:dotnet" },
           { name: "csharp", icon: "devicon:csharp" }
         ],
+      },
+      {
+        id: 5,
+        title: "Status Monitoring System",
+        description: "A production-ready status page that monitors uptime, logs incidents, and notifies subscribers of outages in real time.",
+        image: "https://cdn-images.imagevenue.com/02/60/c9/ME1CNVYT_o.png?w=600&h=400&u=5",
+        gallery: [
+          "https://cdn-images.imagevenue.com/02/60/c9/ME1CNVYT_o.png?w=600&h=400&u=5",
+          "https://cdn-images.imagevenue.com/e0/cd/b5/ME1CNVYR_o.png?w=600&h=400&u=5-1",
+          "https://cdn-images.imagevenue.com/fc/3f/08/ME1CNVYS_o.png?w=600&h=400&u=5-2",
+          "https://cdn-images.imagevenue.com/b4/c6/83/ME1CNVYU_o.png?w=600&h=400&u=5-3",
+          "https://cdn-images.imagevenue.com/ea/a2/31/ME1CNVYV_o.png?w=600&h=400&u=5-4"
+        ],
+        category:"Backend Services",
+        details:"A production-style status monitoring system that periodically checks a target service and logs uptime incidents. Implements automated incident creation and resolution, with email alerts for downtime and recovery. Developed using Next.js, Resend, Prisma ORM with Neon PostgreSQL, and an external cron scheduler.",
+        github: "https://github.com/Khwez1/Status-Monitoring-System.git",
+        tech: [
+          { name: "Resend", icon: "simple-icons:resend" },
+          { name: "Neon", icon: "logos:neon-icon" },
+          { name: "Prisma", icon: "vscode-icons:file-type-light-prisma" },
+          { name: "Next.js", icon: "logos:nextjs-icon" }
+        ]
       }
     ],
   },
