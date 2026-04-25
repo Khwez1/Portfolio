@@ -40,11 +40,11 @@ export const Navigation = () => {
             transition={{ duration: 0.5 }}
           >
             <Link
-              className="font-bold text-inherit text-xl bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent"
+              className="font-black text-xl bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent"
               href="/"
               onClick={() => setIsMenuOpen(false)}
             >
-              Portfolio
+              Khwezi
             </Link>
           </motion.div>
         </NavbarBrand>
