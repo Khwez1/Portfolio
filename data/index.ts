@@ -290,6 +290,30 @@ export const DATA = {
           { name: "Prisma", icon: "vscode-icons:file-type-light-prisma" },
           { name: "Next.js", icon: "logos:nextjs-icon" }
         ]
+      },
+      {
+        id: 6,
+        title: "Project Management System",
+        description: "A project management app. Features task management, authentication, API integration, and responsive UI design.",
+        image: "https://cdn-images.imagevenue.com/b4/d4/8d/ME1CQJBL_o.png?w=600&h=400&u=6",
+        gallery: [
+          "https://cdn-images.imagevenue.com/b4/d4/8d/ME1CQJBL_o.png?w=600&h=400&u=6",
+          "https://cdn-images.imagevenue.com/61/3c/8b/ME1CQJ3F_o.png?w=600&h=400&u=6-1",
+          "https://cdn-images.imagevenue.com/be/bc/2c/ME1CQJ3G_o.png?w=600&h=400&u=6-2",
+          "https://cdn-images.imagevenue.com/32/3a/85/ME1CQJ3I_o.png?w=600&h=400&u=6-3",
+          "https://cdn-images.imagevenue.com/da/ee/1e/ME1CQJ3J_o.png?w=600&h=400&u=6-4"
+        ],
+        category:"Web Development",
+        details:"A full-stack project management platform developed with React on the frontend and Laravel on the backend. The application supports task and project tracking, user authentication, RESTful API communication, and persistent data storage. Deployed manually on an AWS EC2 instance using a custom-configured LEMP stack (Linux, Nginx, MySQL, PHP).",
+        github: "https://github.com/Khwez1/Project-Management-App.git",
+        live:"http://ec2-13-245-75-15.af-south-1.compute.amazonaws.com/",
+        tech: [
+          { name: "Laravel", icon: "logos:laravel" },
+          { name: "Nginx", icon: "material-icon-theme:nginx" },
+          { name: "aws", icon: "logos:aws" },
+          { name: "MySQL", icon: "logos:mysql" },
+          { name: "React", icon: "logos:react" }
+        ]
       }
     ],
   },
