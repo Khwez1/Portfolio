@@ -138,7 +138,7 @@ export const DATA = {
           "I craft dynamic, responsive UIs using modern JavaScript frameworks and CSS tools.",
         tools: [
           { name: "React", icon: "logos:react" },
-          { name: "Vue", icon: "skill-icons:vuejs-dark" },
+          { name: "Vue", icon: "logos:vue" },
           { name: "Tailwind", icon: "logos:tailwindcss-icon" },
           { name: "TypeScript", icon: "logos:typescript-icon" },
           { name: "HTML5", icon: "logos:html-5" },
